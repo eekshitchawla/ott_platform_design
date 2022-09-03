@@ -52,21 +52,8 @@
     </div>
     <div class="container">
         <div class="content-container">
-            <div class="featured-content">
-                <!-- <img class="featured-title" src="img/f-t-1.png" alt=""> -->
-                <!-- <div class="featured-content-content">
-                    <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
-                        deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
-                        minima voluptatibus incidunt. Accusamus, provident.</p>
-                    <button onclick="videoPlay()" class="featured-button"><img class="featured-title" src="img/f-t-1.png" alt="">
-                    </button>
-                </div> -->
-
-                <!-- <button onclick="videoPlay()" class="featured-button"><img class="featured-title" src="img/f-t-1.png" alt=""></button> -->
-
-                <!-- <input type="button" src="https://images.app.goo.gl/bQ9xRRYb2wurnsnM8" width="900" height="70"> -->
-            
-            <button class="featured-button" type="button"><img class="featured-title"src="img/f-t-1.png" alt="watch"></button>
+            <div class="featured-content">           
+            <button class="featured-button" id="first-poster" type="button"><img class="featured-title"src="img/f-t-1.png" alt="watch"></button>
             </div>
             <div class="movie-list-container">
                 <br>
@@ -83,9 +70,11 @@
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/2.jpeg" alt="">
                             <span class="movie-list-item-title">Star Wars</span>
-                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                                hic fugit similique accusantium.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            <div class="movie-list-item-container">
+                                <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                    hic fugit similique accusantium.</p>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/3.jpg" alt="">
@@ -186,13 +175,15 @@
             <div class="featured-content"
                 style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
                 <img class="featured-title" src="img/f-t-2.png" alt="">
-                <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
-                    deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
-                    minima voluptatibus incidunt. Accusamus, provident.</p>
-                <button class="featured-button">WATCH</button>
+                <div class="featured-container">
+                    <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
+                        deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
+                        minima voluptatibus incidunt. Accusamus, provident.</p><br>
+                    <button class="featured-button">WATCH</button>
+                </div>
             </div>
             <div class="movie-list-container">
-                <br>
+                <br><br><br>
                 <h1 class="movie-list-title">ACTION</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
